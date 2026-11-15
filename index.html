@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio ANDRIANANTENAINA Miora Tsilavo Ramarosahanina – Développeur Full-Stack</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ========== NAVBAR ========== -->
+    <header class="navbar" id="navbar">
+        <a href="#accueil" class="logo">MIORA<span>.</span></a>
+
+        <nav class="nav-links" id="nav-links">
+            <a href="#projets">Projets</a>
+            <a href="#apropos">À propos</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <a href="#contact" class="nav-cta">
+            <span class="nav-cta-arrow">→</span>
+            <span class="nav-cta-text">Me contacter</span>
+        </a>
+
+        <button class="burger" id="burger" aria-label="Ouvrir le menu" aria-expanded="false">
+            <span></span><span></span><span></span>
+        </button>
+    </header>
+
+    <main>
+        <!-- ========== HERO ========== -->
+        <section class="hero" id="accueil">
+            <div class="hero-text">
+                <p class="hero-label"><i></i>Développeur Full-Stack</p>
+                <h1 class="hero-title">
+                    Bienvenue <span class="muted">dans mon</span>
+                    <span class="muted">portfolio</span>
+                </h1>
+                <p class="hero-sub">
+                    Je crée des applications web modernes, utiles et performantes.
+                </p>
+            </div>
+
+            <div class="hero-photo">
+                <div class="photo-circle">
+                    <img src="img/profil.png" alt="Photo de profil">
+                </div>
+            </div>
+
+            <a href="#projets" class="hire-btn">Mes<br>projets</a>
+
+            <h2 class="hero-name" aria-label="Miora Tsilavo">
+                <span>MIORA</span> <span>TSILAVO</span>
+            </h2>
+        </section>
+
+        <!-- ========== À PROPOS ========== -->
+        <section class="section about" id="apropos">
+            <h2 class="section-title">À propos de moi</h2>
+            <div class="about-text">
+                <p>
+                    Je suis ANDRIANANTENAINA Miora Tsilavo Ramarosahanina, développeur Full-Stack,
+                    diplômé d’une Licence en Informatique, parcours Système d’Information et Génie Logiciel,
+                    obtenue à l’Université Adventiste Zurcher en juillet 2026.
+                </p>
+                <p>
+                    Passionné par le développement web, je m’intéresse particulièrement à la création
+                    d’applications modernes, utiles et performantes. J’aime apprendre de nouvelles technologies
+                    et améliorer progressivement mes compétences en développement Full-Stack.
+                </p>
+                <p>
+                    Je suis une personne motivée, curieuse et sérieuse. J’apprécie également le travail en équipe
+                    et les projets qui me permettent de relever de nouveaux défis.
+                </p>
+            </div>
+        </section>
+
+        <!-- ========== PROJETS ========== -->
+        <section class="section projects" id="projets">
+            <h2 class="section-title">Mes projets</h2>
+            <p class="section-intro">Voici quelques-uns de mes projets récents :</p>
+
+            <article class="projet">
+                <h3>Odonto AI : gestion de cabinet dentaire assistée par l'IA</h3>
+                <p class="accroche">
+                    Plateforme web de gestion de cabinet dentaire intégrant un assistant d'intelligence
+                    artificielle pour faciliter le travail quotidien du praticien.
+                </p>
+                <p class="contexte">
+                    Projet de fin d'études, réalisé en troisième année de Licence (L3) en Système
+                    d'Information et Génie Logiciel.
+                </p>
+
+                <div class="projet-grid">
+                    <div>
+                        <h4>Problème résolu</h4>
+                        <p>
+                            Les tâches administratives d'un cabinet dentaire (suivi des patients, rendez-vous,
+                            consultations, paiements) prennent un temps précieux au praticien. Cette application
+                            les centralise dans un seul outil et y ajoute une assistance intelligente : pendant la
+                            consultation, l'IA propose des suggestions de diagnostic pour appuyer la décision
+                            du dentiste.
+                        </p>
+                    </div>
+                    <div>
+                        <h4>Mon rôle</h4>
+                        <p>
+                            J'ai conçu et développé seul l'ensemble de la plateforme, de l'analyse des besoins
+                            jusqu'à l'interface utilisateur.
+                        </p>
+                        <ul>
+                            <li><strong>Backend :</strong> architecture en microservices avec Spring Boot</li>
+                            <li><strong>Frontend :</strong> interface développée avec Angular</li>
+                            <li><strong>Intelligence artificielle :</strong> service dédié en Python (FastAPI)</li>
+                            <li><strong>Sécurité :</strong> authentification JWT et gestion des rôles</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <h4>Technologies</h4>
+                <div class="badges">
+                    <span class="badge"><i class="devicon-spring-original colored"></i> Spring Boot</span>
+                    <span class="badge"><i class="devicon-angularjs-plain colored"></i> Angular</span>
+                    <span class="badge"><i class="devicon-python-plain colored"></i> Python</span>
+                    <span class="badge"><i class="devicon-fastapi-plain colored"></i> FastAPI</span>
+                    <span class="badge"><i class="devicon-postgresql-plain colored"></i> PostgreSQL</span>
+                    <span class="badge"><i class="devicon-tailwindcss-original colored"></i> Tailwind CSS</span>
+                </div>
+
+                <h4>Aperçu de l'application</h4>
+                <div class="galerie">
+                    <figure>
+                        <img src="img/capture1.png" alt="Tableau de bord d'Odonto AI" loading="lazy">
+                        <figcaption>Tableau de bord</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="img/capture2.png" alt="Gestion des rendez-vous" loading="lazy">
+                        <figcaption>Gestion des rendez-vous</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="img/capture3.png" alt="Gestion des patients" loading="lazy">
+                        <figcaption>Gestion des patients</figcaption>
+                    </figure>
+                </div>
+            </article>
+        </section>
+
+        <!-- ========== CONTACT ========== -->
+        <section class="section contact" id="contact">
+            <h2 class="section-title">Me contacter</h2>
+            <p class="section-intro">Vous pouvez me contacter via les moyens suivants :</p>
+
+            <ul class="contact-list">
+                <li>
+                    <span>Email</span>
+                    <a href="mailto:mioraandriananten@gmail.com">mioraandriananten@gmail.com</a>
+                </li>
+                <li>
+                    <span>Téléphone</span>
+                    <a href="tel:+261384095737">+261 38 40 957 37</a>
+                </li>
+                <li>
+                    <span>Facebook</span>
+                    <p>Miu Ram Andrianantenaina</p>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>© <span id="year">2026</span> ANDRIANANTENAINA Miora Tsilavo Ramarosahanina</p>
+        <a href="#accueil">Retour en haut ↑</a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
